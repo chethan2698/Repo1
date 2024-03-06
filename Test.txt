@@ -1,0 +1,10 @@
+ Volume in drive D is Data Disk
+ Volume Serial Number is 1CE2-FCDB
+
+ Directory of D:\STRYKER\Git\MyProject
+
+06-03-2024  01:03 PM    <DIR>          .
+06-03-2024  01:02 PM    <DIR>          ..
+06-03-2024  01:03 PM                 0 Test.txt
+               1 File(s)              0 bytes
+               2 Dir(s)  278,745,587,712 bytes free
