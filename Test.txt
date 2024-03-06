@@ -48,4 +48,11 @@ now the file system becomes git file system or git repository
 > add to remote repository	
 	eg : git remote add origin https://github.com/RaghavAutomation/R...
 	eg : git push -u origin master
+
 	
+git diff Demo.java
+This will show you the differences between the current state of Demo.java and the last commit. 
+If you want to see the changes that you've staged but not yet committed	
+	
+git diff --staged Demo.java
+This will show you the changes that are staged and ready to be committed.
