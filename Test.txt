@@ -1,10 +1,51 @@
- Volume in drive D is Data Disk
- Volume Serial Number is 1CE2-FCDB
+working on git commands
 
- Directory of D:\STRYKER\Git\MyProject
+git config --global user.email "yourGitHub@email.com"
+git config --global user.name "yourGitHubusername"
 
-06-03-2024  01:03 PM    <DIR>          .
-06-03-2024  01:02 PM    <DIR>          ..
-06-03-2024  01:03 PM                 0 Test.txt
-               1 File(s)              0 bytes
-               2 Dir(s)  278,745,587,712 bytes free
+
+create folder and access cmd from that folder
+
+> initialize git file system or git repository
+	git init
+
+now the file system becomes git file system or git repository
+
+> to add all latest changes 
+	git add .
+	
+> to add particular file
+	eg : pom.xml
+	
+	git add pom.xml
+	
+> commit added files
+	git commit -m "commit message"
+	
+	commit message : meaningfull message related to new changes 
+	
+> create new branch
+	git checkout -b branchname
+	eg : git checkout -b chethan
+	
+> to check git branch
+	git branch
+	
+> to see the commits n logs
+	git log --oneline
+	
+> switch to branch
+	git checkout branchname
+	eg : git checkout chethan
+	
+> convert multiple commit ids in to single ids
+	git merge --squash branchName
+	eg : git merge --squash chethan
+	
+> merge the code to targeted branch
+	git commit -m "commit message"
+
+> add to remote repository	
+	eg : git remote add origin https://github.com/RaghavAutomation/R...
+	eg : git push -u origin master
+	
